@@ -1,65 +1,49 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import React from "react";
+import Main from "../components/main";
+import Header from "../components/Header";
+
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    return (
+        <div className={styles.container}>
+            <Head>
+                <title> ADITYA || Full Stack Developer</title>
+                <meta content="" name="description"/>
+                <meta content="" name="keywords"/>
+                <link href="./favicon.ico" rel="icon"/>
+                <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
+                <link
+                    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+                    rel="stylesheet"/>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+                <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+                <link href="./assets/vendor/icofont/icofont.min.css" rel="stylesheet"/>
+                <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
+                <link href="./assets/vendor/venobox/venobox.css" rel="stylesheet"/>
+                <link href="./assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet"/>
+                <link href="./assets/vendor/aos/aos.css" rel="stylesheet"/>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+            </Head>
+            <Header/>
+            <script src="./assets/vendor/jquery/jquery.min.js"/>
+            <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.min.js"/>
+            <script src="./assets/vendor/jquery.easing/jquery.easing.min.js"/>
+            <script src="./assets/vendor/php-email-form/validate.js"/>
+            <script src="./assets/vendor/waypoints/jquery.waypoints.min.js"/>
+            <script src="./assets/vendor/counterup/counterup.min.js"/>
+            <script src="./assets/vendor/isotope-layout/isotope.pkgd.min.js"/>
+            <script src="./assets/vendor/venobox/venobox.min.js"/>
+            <script src="./assets/vendor/owl.carousel/owl.carousel.min.js"/>
+            <script src="./assets/vendor/typed.js/typed.min.js"/>
+            <script src="./assets/js/main.js"/>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+            {/*<Main/>*/}
+            <a href="#" className="back-to-top"><i className="bx bx-up-arrow-alt"></i></a>
+            <div id="preloader"></div>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+    )
 }
