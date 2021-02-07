@@ -29,7 +29,7 @@ const Header = () => {
                         <a href="https://www.instagram.com/adityaaadhii/" className="facebook"><i className='bx bxl-instagram'></i></a>
                         <a href='https://wa.me/919567682232/?text=Hi%20Aditya' className="instagram"><i className='bx bxl-whatsapp'></i></a>
                         <a href="skype:live:adityavadityav?chat" className="google-plus"><i className="bx bxl-skype"></i></a>
-                        <a href="#" className="https://linkedin.com/aditya-v"><i className="bx bxl-linkedin"></i></a>
+                        <a href="https://linkedin.com/aditya-v"  className="google-plus"><i className="bx bxl-linkedin"></i></a>
                     </div>
 
 
