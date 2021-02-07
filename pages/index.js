@@ -10,8 +10,16 @@ export default function Home() {
         <div className={styles.container}>
             <Head>
                 <title> ADITYA || Full Stack Developer</title>
-                <meta content="" name="description"/>
-                <meta content="" name="keywords"/>
+                <meta content="Proficient in Javascript and Full Stack development using MERN/MEAN."
+                      name="description"/>
+                <meta
+                    content="freelance, developer, kerala, websites, javascript, node, react, performance, javascript, js, crpsyal, india"
+                    name="keywords"/>
+                <meta name="robots" content="index, follow"/>
+                <meta property="og:title" content="ADITYA || Full Stack Developer"/>
+                <meta property="og:description" content="Proficient in Javascript and Full Stack development using MERN/MEAN."/>
+                <meta property="og:image" content="https://avatars.githubusercontent.com/u/25718001?s=460&u=e373ed1cbb090419ee4c095ce63f1e0f66c9d1cd&v=4"/>
+                <meta property="og:url" content="http://adityav.in"/>
                 <link href="./favicon.ico" rel="icon"/>
                 <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
                 <link
@@ -24,7 +32,6 @@ export default function Home() {
                 <link href="./assets/vendor/venobox/venobox.css" rel="stylesheet"/>
                 <link href="./assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet"/>
                 <link href="./assets/vendor/aos/aos.css" rel="stylesheet"/>
-
 
 
             </Head>
