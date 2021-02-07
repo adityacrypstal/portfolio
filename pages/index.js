@@ -18,7 +18,7 @@ export default function Home() {
                 <meta name="robots" content="index, follow"/>
                 <meta property="og:title" content="ADITYA || Full Stack Developer"/>
                 <meta property="og:description" content="React | Node | Angular | Next | Javascript | Python | AWS | Mongo | SQL"/>
-                <meta property="og:image" content="https://drive.google.com/file/d/1CWgPRbJeLD8RXJqgDRlMRh-IAMytD2Fe/preview"/>
+                <meta property="og:image" content="https://ibb.co/F4q23gc"/>
                 <meta property="og:url" content="http://adityav.in"/>
                 <link href="./favicon.ico" rel="icon"/>
                 <link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
