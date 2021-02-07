@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <>
-            <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+            {/*<button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>*/}
 
             {/*<header id="header" class="d-flex flex-column justify-content-center">*/}
 
