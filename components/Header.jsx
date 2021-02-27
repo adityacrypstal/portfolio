@@ -34,7 +34,8 @@ const Header = () => {
 
 
                 </div>
-            </section></>
+            </section>
+        </>
     );
 };
 

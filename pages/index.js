@@ -13,7 +13,7 @@ export default function Home() {
                 <meta content="React || Node || Angular || Next || Javascript || Python || AWS || Mongo || SQL"
                       name="description"/>
                 <meta
-                    content="freelance, developer, kerala, websites, javascript, node, react, performance, javascript, js, crpsyal, india"
+                    content="freelance, developer,full stack, kerala, websites, javascript, node, react, performance, javascript, js, crpstal, india"
                     name="keywords"/>
                 <meta name="robots" content="index, follow"/>
                 <meta property="og:title" content="ADITYA || Full Stack Developer"/>
@@ -48,7 +48,7 @@ export default function Home() {
             <script src="./assets/vendor/typed.js/typed.min.js"/>
             <script src="./assets/js/main.js"/>
 
-            {/*<Main/>*/}
+            <Main/>
             <a href="#" className="back-to-top"><i className="bx bx-up-arrow-alt"></i></a>
             <div id="preloader"></div>
         </div>

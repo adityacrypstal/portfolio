@@ -143,9 +143,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 992px) {
-  #main {
-    margin-left: 100px;
-  }
+  /*#main {*/
+  /*  margin-left: 100px;*/
+  /*}*/
 }
 
 /*--------------------------------------------------------------
@@ -334,7 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 0 0;
   overflow: hidden;
 }
 
