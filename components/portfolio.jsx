@@ -43,10 +43,12 @@ const datas = [
 const Portfolio = () => {
     return (
         <section id="portfolio" className="portfolio section-bg">
-            <div className="container-fluid">
-                <div className="row">
+            <div className="container-fluid p-0">
+                <hr/>
+                <h2>PORTFOLIO</h2>
+                <div className="row mt-5">
                     {datas.map((item) => (
-                        <div className="col-lg-4 col-md-6 portfolio-item filter-card m-0 p-0">
+                        <div className="col-md-6 portfolio-item filter-card m-0 p-4">
                             <div className="portfolio-wrap">
                                 <img src={`assets/img/portfolio/${item.optimised}`} className="img-fluid" alt=""/>
                                 <div className="portfolio-info">
