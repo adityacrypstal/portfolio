@@ -70,7 +70,7 @@ const Portfolio = () => {
                                         <a href={`assets/img/portfolio/${item.image}`}
                                            data-gall="portfolioGallery" className="venobox" title="Card 1"><i
                                             className="bx bx-plus"></i></a>
-                                        <a href={item.link} data-gall="portfolioDetailsGallery"
+                                        <a href={item.link} target={"_blank"} data-gall="portfolioDetailsGallery"
                                            data-vbtype="iframe" className="venobox" title="Portfolio Details"><i
                                             className="bx bx-link"></i></a>
                                     </div>
