@@ -32,6 +32,18 @@ const datas = [
         technology: "Express",
         link: "http://pranavammatrimony.com"
     }, {
+        name: "T-Hands",
+        image: "t-hands.gif",
+        optimised: "t-hands-opt.gif",
+        technology: "Next",
+        link: "https://t-hands.org"
+    }, {
+        name: "My Talent Papa",
+        image: "mtp.gif",
+        optimised: "mtp-opt.gif",
+        technology: "React",
+        link: "https://mtp-admin.adityav.in/"
+    }, {
         name: "Molecules Enviro Care",
         image: "molecules.gif",
         optimised: "molecules-opt.gif",
