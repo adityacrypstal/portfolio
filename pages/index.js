@@ -10,10 +10,10 @@ export default function Home() {
         <div className={styles.container}>
             <Head>
                 <title> ADITYA || Full Stack Developer</title>
-                <meta content="React || Node || Angular || Next || Javascript || Python || AWS || Mongo || SQL"
-                      name="description"/>
+                <meta content="Aditya Vijayakumar. Freelance Full Stack Javascript Developer who develops wonderful projects in React,Node,Angular,Next,Javascript,Python,AWS,Mongo,SQL..."
+                      name="Description"/>
                 <meta
-                    content="freelance, developer,full stack, kerala, websites, javascript, node, react, performance, javascript, js, crpstal, india"
+                    content="aditya, aditya vijayakumar, freelance, developer,full stack, kerala, websites, javascript, node, react, performance, javascript, js, crypstal, india"
                     name="keywords"/>
                 <meta name="robots" content="index, follow"/>
                 <meta property="og:title" content="ADITYA || Full Stack Developer"/>

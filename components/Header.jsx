@@ -22,11 +22,11 @@ const Header = () => {
 
             <section id="hero" className="d-flex flex-column justify-content-center">
                 <div className="container" >
-                    <h1>Aditya V</h1>
+                    <h1>Aditya Vijayakumar</h1>
                     <p>Full Stack in <span className="typed" data-typed-items="MERN, MEAN, Javascript"/></p>
                     <div className="social-links">
                         <a href="https://github.com/adityacrypstal" className="twitter"><i className='bx bxl-github'></i></a>
-                        <a href="https://www.instagram.com/adityaaadhii/" className="facebook"><i className='bx bxl-instagram'></i></a>
+                        <a href="https://www.instagram.com/aditya.vijayakumar/" className="facebook"><i className='bx bxl-instagram'></i></a>
                         <a href='https://wa.me/919567682232/?text=Hi%20Aditya' className="instagram"><i className='bx bxl-whatsapp'></i></a>
                         <a href="skype:live:adityavadityav?chat" className="google-plus"><i className="bx bxl-skype"></i></a>
                         <a href="https://linkedin.com/in/aditya-v"  className="google-plus"><i className="bx bxl-linkedin"></i></a>

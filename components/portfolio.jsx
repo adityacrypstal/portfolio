@@ -2,6 +2,18 @@ import React from 'react';
 
 const datas = [
     {
+        image: "twaddan.gif",
+        optimised: "twaddan.gif",
+        technology: "Node, React",
+        name: "Twaddan",
+        link: "https://twaddan.com/"
+    }, {
+        image: "western.gif",
+        optimised: "western.gif",
+        technology: "Next",
+        name: "The Western Speaker",
+        link: "https://www.thewesternspeaker.com/"
+    }, {
         image: "logibids.gif",
         optimised: "logibids-opt.gif",
         technology: "Angular",
