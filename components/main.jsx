@@ -1,6 +1,8 @@
 import React from 'react';
+import dynamic from 'next/dynamic'
 
-import Portfolio from "./portfolio";
+const Portfolio = dynamic(() => import('./portfolio'));
+
 
 const Main = () => {
     return (

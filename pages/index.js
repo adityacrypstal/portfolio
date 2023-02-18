@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from "react";
-import Main from "../components/main";
-import Header from "../components/Header";
+import dynamic from 'next/dynamic'
+
+const Header = dynamic(() => import("../components/Header"));
+const Main = dynamic(() => import("../components/main"));
 
 
 export default function Home() {

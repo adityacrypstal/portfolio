@@ -1,6 +1,13 @@
 import React from 'react';
+import Image from 'next/image';
 
-const datas = [
+const datas = [{
+        name: "Timeline",
+        image: "timeline.gif",
+        optimised: "timeline-opt.gif",
+        technology: "React, Node",
+        link: "https://moleculee.herokuapp.com/"
+    },
     {
         image: "twaddan.gif",
         optimised: "twaddan.gif",
@@ -55,6 +62,12 @@ const datas = [
         optimised: "mtp-opt.gif",
         technology: "React",
         link: "https://mtp-admin.adityav.in/"
+    },{
+        name: "Cityway",
+        image: "cityway.gif",
+        optimised: "cityway-opt.gif",
+        technology: "Flutter, Node",
+        link: "https://moleculee.herokuapp.com/"
     }, {
         name: "Molecules Enviro Care",
         image: "molecules.gif",
@@ -72,19 +85,23 @@ const Portfolio = () => {
                 <h2>PORTFOLIO</h2>
                 <div className="row mt-5">
                     {datas.map((item) => (
-                        <div className="col-md-6 portfolio-item filter-card m-0 p-4">
+                        <div className="col-md-6 portfolio-item filter-card m-0 p-4" key={item.link}>
                             <div className="portfolio-wrap">
-                                <img src={`assets/img/portfolio/${item.optimised}`} className="img-fluid" alt=""/>
+                                <Image
+                                    fill={"true"}
+                                    src={`/assets/img/portfolio/${item.optimised}`} className="img-fluid" alt=""
+                                    height={550}
+                                    width={1000}
+                                    sizes="(max-width: 768px) 100vw"
+                                />
+                                {/*<img src={`assets/img/portfolio/${item.optimised}`} className="img-fluid" alt=""/>*/}
                                 <div className="portfolio-info">
                                     <h4>{item.name}</h4>
                                     <p>{item.technology}</p>
                                     <div className="portfolio-links">
-                                        <a href={`assets/img/portfolio/${item.image}`}
+                                        <a href={`assets/img/portfolio/${item.image}`} target={"_blank"}
                                            data-gall="portfolioGallery" className="venobox" title="Card 1"><i
                                             className="bx bx-plus"></i></a>
-                                        <a href={item.link} target={"_blank"} data-gall="portfolioDetailsGallery"
-                                           data-vbtype="iframe" className="venobox" title="Portfolio Details"><i
-                                            className="bx bx-link"></i></a>
                                     </div>
                                 </div>
                             </div>
